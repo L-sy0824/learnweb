@@ -1,1 +1,43 @@
 hellow lsy
+1. HTML头部：
+	a. html：根标签
+	b. head：头部标签
+	c. title: 可以用来在网页的标签上显示文字
+	d. meta: 元数据
+		i. charset:字符集：最推荐和常用的就是utf-8，其它常用的有iso-8859-1、gb2312、gbk等
+		ii. viewport: 可视窗口 
+        	1. width=device-width：让viewport的宽度等于实际设备的宽度
+			2. initial-scale=1.0：初始的缩放系数
+		    i. keywords, description: 用来做seo搜索引擎优化
+    e. link: 
+		i. 可以用来加载网页的icon图标
+		ii. 可以用来加载css样式文件
+	f. base: 用来设置基准路径
+	g. style: 用来编写css样式
+	h. script: 用来编写js代码
+         1. 字符实体：如果在网网页相输出比如< 或 > 等这些特殊符号的时候，有专门的一些语法来代替直接输入这些符号
+
+
+
+A、行元素：(i. 行元素默认会在水平方向排列  ii. 行元素不能设置width和height，它的宽度是由内容决定的)
+  1. span： 一小段文本
+  2. a（anchor）: 超链接，href是它的一个属性，用来设置引用的连接地址  链接通过<a>定义
+  3. i（italic）：斜体
+  4. strong：语气更强调
+  5. em: 语气强调
+
+B、块元素：（1. 块元素默认会垂直方向排列 2. 块元素可以设置width和height，但是如果你不手动设置这两个值，那么width的值是auto（自适应），高度的值是内容决定的。）
+   1. h1-h6：标题
+   2. p：段落
+   3. div（divide）: 区块，主要就是用来给网页做布局的
+   4. ol与ul： ol(order list，有序列表), ul(unorder list，无序列表)， li就是列表项
+
+
+C、表单元素：
+   1. input: 输入元素
+	  a. type="text"： 单行文本框
+	  b. type="password"： 密码框
+	  c. type="radio": 单选框
+	  d. type="checkbox": 复选框
+   2. select：下拉选择框，在它的内部使用option标签来表示一个选项
+   3. textarea: 多行文本框
